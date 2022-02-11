@@ -1,0 +1,82 @@
+{
+	//EDITOR//
+	"editor.fontSize": 13,
+	"editor.fontFamily": "'Hack Nerd Font',  'Fira Code', 'Operator Mono',  Menlo, Consolas, monospasefont ",
+	"editor.fontLigatures": true,
+	"editor.glyphMargin": true,
+	"editor.showFoldingControls": "always",
+	"editor.tabCompletion": "on",
+	"editor.suggest.localityBonus": true,
+	"diffEditor.wordWrap": "on",
+	"editor.multiCursorModifier": "alt",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	"editor.cursorSmoothCaretAnimation": false,
+	"editor.mouseWheelZoom": true,
+	"editor.renderLineHighlight": "all",
+	"editor.lineNumbers": "on",
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.scrollBeyondLastLine": true,
+	"editor.renderWhitespace": "all",
+	"editor.hover.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+
+	//TERMINAL//
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.fontFamily": "'Hack Nerd Font',  'Fira Code', 'Operator Mono',  Menlo, Consolas, monospasefont ",
+	"terminal.integrated.showExitAlert": false,
+	//WORKBENCH//
+	"workbench.settings.editor": "ui",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "none",
+	"workbench.activityBar.visible": true,
+	"window.zoomLevel": 0.31,
+	//NPM //
+	"npm.packageManager": "yarn",
+	// FILES//
+	"files.trimTrailingWhitespace": true,
+	"liveServer.settings.port": 7070,
+	"html.format.wrapLineLength": 80,
+	"explorer.confirmDragAndDrop": false,
+	"extensions.ignoreRecommendations": true,
+	"material-icon-theme.folders.theme": "specific",
+	"explorer.sortOrder": "default",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Dracula",
+	"git.autofetch": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"git.confirmSync": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.ignoreMissingGitWarning": true,
+	"liveServer.settings.CustomBrowser": "chrome",
+	"editor.formatOnSave": true,
+
+	"files.autoSave": "onFocusChange",
+	"prettier.jsxSingleQuote": true,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		},
+		{
+			"extensionName": ".min.css",
+			"format": "compressed",
+			"savePath": "/css"
+		}
+	],
+	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+	"liveSassCompile.settings.generateMap": true,
+	"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+}

@@ -26,6 +26,26 @@ const start = () => {
 			});
 		}
 
+		if (text === "Челенджы") {
+			await bot.sendMessage(chatId, "/keyboard", {
+				reply_markup: {
+					keyboard: [
+						[
+							"https://pale-shad-8fc.notion.site/Present-Simple-Grammar-Fascist-c5125ceb76f04d5cb1296bdeca16c32e",
+						],
+						["Назад"],
+					],
+				},
+			});
+		}
+
+		if (text === "Назад") {
+			await bot.sendMessage(chatId, "/keyboard", {
+				reply_markup: {
+					keyboard: [["Описание"], ["Челенджы"]],
+				},
+			});
+		}
 		// bot.sendMessage(chatId, `Ты мне написал (${text}) Это так мило`);
 
 		// Старт бота
@@ -49,7 +69,7 @@ const start = () => {
 				`тебя зовут  ${msg.from.first_name} ${msg.from.last_name}`
 			);
 		}
-		return bot.sendMessage(chatId, "Я тебя не понимаю,попробуй еще раз! ");
+		// return bot.sendMessage(chatId, "Я тебя не понимаю,попробуй еще раз! ");
 
 		console.log(msg);
 	});

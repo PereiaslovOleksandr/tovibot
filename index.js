@@ -32,8 +32,7 @@ const start = () => {
 					keyboard: [
 						["Basic Grammar"],
 						["English for Volunteers"],
-						["English for Defenders"],
-						["Назад"],
+						["English for Defenders"], ["Назад"],
 					],
 				},
 			});
